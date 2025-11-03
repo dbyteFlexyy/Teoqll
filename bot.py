@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import Application, MessageHandler, filters, ContextTypes
 
 # Heroku environment variable से token लें
-BOT_TOKEN = os.environ.get('BOT_TOKEN', '8333062611:AAH2fdhTTUNLQnBod0r3qtCjYsTjDG7fXWY')
+BOT_TOKEN = os.environ.get('BOT_TOKEN', 'Flexyy_ka_lowda_lo')
 
 # Logging setup
 logging.basicConfig(
