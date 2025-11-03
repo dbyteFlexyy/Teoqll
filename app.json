@@ -1,0 +1,33 @@
+{
+  "name": "Anime Caption Formatter Bot",
+  "description": "A Telegram bot that automatically formats video captions with bold text and custom styling for anime content.",
+  "logo": "https://telegra.ph/file/2c6d1a6f78eba6199933a.jpg",
+  "keywords": [
+    "python",
+    "telegram",
+    "bot",
+    "caption",
+    "formatter",
+    "anime",
+    "automation"
+  ],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your Telegram Bot Token from BotFather",
+      "required": true,
+      "value": "8333062611:AAH2fdhTTUNLQnBod0r3qtCjYsTjDG7fXWY"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  },
+  "stack": "container"
+}
